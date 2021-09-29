@@ -2,7 +2,7 @@
   "name": "usd",
   "version": "1.0.0",
   "description": "a simple helper for get online us dollor price from tgju api",
-  "main": "index.js",
+  "main": "puppeteer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
@@ -11,8 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "jsdom": "^17.0.0",
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^3.0.0",
+    "puppeteer": "^10.4.0"
   },
-  "type": "module",
-  "devDependencies": {}
+  "type": "module"
 }
